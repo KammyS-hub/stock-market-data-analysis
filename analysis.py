@@ -4,6 +4,8 @@ import yfinance as yf
 ticker = input("Enter stock ticker: ")
 data = yf.download(ticker, start="2023-01-01", end="2024-01-01")
 
+print("\nStock Data Preview:")
+print(data[['Open', 'High', 'Low', 'Close', 'Volume']].head())
 print(data.head())
 import matplotlib.pyplot as plt
 
