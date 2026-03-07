@@ -1,13 +1,26 @@
-# Stock Market Analyzer
+# Stock Market Analyzer 📈
 
-This project analyzes stock market data using Python.
+A Python project that downloads and analyzes stock market data.
 
 ## Features
-- Fetches stock data using yfinance
-- Displays historical stock data
-- Foundation for future stock analysis tools
+- Fetch stock data using yfinance
+- Display important stock metrics
+- Calculate 20-day moving average
+- Plot stock trends
 
-## Libraries Used
+## Technologies Used
+- Python
 - pandas
 - matplotlib
 - yfinance
+
+## How It Works
+The program asks the user to enter a stock ticker and then:
+1. Downloads historical stock data
+2. Calculates moving averages
+3. Visualizes the stock trend
+
+Example tickers:
+- AAPL
+- TSLA
+- MSFT
